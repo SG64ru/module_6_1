@@ -40,7 +40,7 @@ class Fruit(Plant):
 
 
 a1 = Predator('Волк с Уолл-Стрит')
-animal2 = Mammal('Хактико')
+a2 = Mammal('Хактико')
 p1 = Plant('Цветик семицветик')
 p2 = Fruit('Заводной апельсин')
 

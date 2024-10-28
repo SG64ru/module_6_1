@@ -39,18 +39,18 @@ class Fruit(Plant):
 
 
 
-animal1 = Predator('Tiger')
-animal2 = Mammal('Bull')
-plant1 = Plant('Rose')
-plant2 = Fruit('Apple')
+a1 = Predator('Волк с Уолл-Стрит')
+animal2 = Mammal('Хактико')
+p1 = Plant('Цветик семицветик')
+p2 = Fruit('Заводной апельсин')
 
-print(animal1.name)
-print(plant1.name)
+print(a1.name)
+print(p1.name)
 
-print(animal1.alive, f'- {animal1.name} живой')
-print(animal2.fed, f'- {animal2.name} голоден')
+print(a1.alive, f'- {a1.name} живой')
+print(a2.fed, f'- {a2.name} голоден')
 
-animal1.eat(plant1)
-animal2.eat(plant2)
-print(animal1.alive, f'- {animal1.name} помер')
-print(animal2.fed, f'- {animal2.name} сыт')
+animal1.eat(p1)
+animal2.eat(p2)
+print(a1.alive, f'- {a1.name} помер')
+print(a2.fed, f'- {a2.name} сыт')
